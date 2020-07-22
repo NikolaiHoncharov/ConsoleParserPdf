@@ -1,0 +1,13 @@
+C:\Users\Николай\source\repos\ConsoleParserPdf\ConsoleParserPdf\obj\Debug\netcoreapp3.1\ConsoleParserPdf.csproj.CoreCompileInputs.cache
+C:\Users\Николай\source\repos\ConsoleParserPdf\ConsoleParserPdf\obj\Debug\netcoreapp3.1\ConsoleParserPdf.AssemblyInfoInputs.cache
+C:\Users\Николай\source\repos\ConsoleParserPdf\ConsoleParserPdf\obj\Debug\netcoreapp3.1\ConsoleParserPdf.AssemblyInfo.cs
+C:\Users\Николай\source\repos\ConsoleParserPdf\ConsoleParserPdf\bin\Debug\netcoreapp3.1\ConsoleParserPdf.exe
+C:\Users\Николай\source\repos\ConsoleParserPdf\ConsoleParserPdf\bin\Debug\netcoreapp3.1\ConsoleParserPdf.deps.json
+C:\Users\Николай\source\repos\ConsoleParserPdf\ConsoleParserPdf\bin\Debug\netcoreapp3.1\ConsoleParserPdf.runtimeconfig.json
+C:\Users\Николай\source\repos\ConsoleParserPdf\ConsoleParserPdf\bin\Debug\netcoreapp3.1\ConsoleParserPdf.runtimeconfig.dev.json
+C:\Users\Николай\source\repos\ConsoleParserPdf\ConsoleParserPdf\bin\Debug\netcoreapp3.1\ConsoleParserPdf.dll
+C:\Users\Николай\source\repos\ConsoleParserPdf\ConsoleParserPdf\bin\Debug\netcoreapp3.1\ConsoleParserPdf.pdb
+C:\Users\Николай\source\repos\ConsoleParserPdf\ConsoleParserPdf\obj\Debug\netcoreapp3.1\ConsoleParserPdf.dll
+C:\Users\Николай\source\repos\ConsoleParserPdf\ConsoleParserPdf\obj\Debug\netcoreapp3.1\ConsoleParserPdf.pdb
+C:\Users\Николай\source\repos\ConsoleParserPdf\ConsoleParserPdf\obj\Debug\netcoreapp3.1\ConsoleParserPdf.genruntimeconfig.cache
+C:\Users\Николай\source\repos\ConsoleParserPdf\ConsoleParserPdf\obj\Debug\netcoreapp3.1\ConsoleParserPdf.csprojAssemblyReference.cache

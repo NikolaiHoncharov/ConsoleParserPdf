@@ -1,7 +1,8 @@
-﻿using System;
+﻿using ConsoleParserPdf.Model;
+using System;
 using System.Collections.Generic;
 
-namespace ConsoleParserPdf
+namespace ConsoleParserPdf.Model
 {
     class LinkParsSite
     {

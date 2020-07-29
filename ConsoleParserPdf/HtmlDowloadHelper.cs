@@ -1,14 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Net;
 using System.Text.RegularExpressions;
+using System.Threading.Tasks;
 
 namespace ConsoleParserPdf
 {
     class HtmlDowloadHelper
     {
+        /// <summary>
+        /// Парсинг указанной страницы
+        /// </summary>
+        /// <param name="uri"></param>
+        /// <returns></returns>
         public  static  string DowloadHtml(string uri)
         {
             string html = null;
@@ -29,6 +34,11 @@ namespace ConsoleParserPdf
             }
         }
 
+        /// <summary>
+        /// Формирования всех файлов .pdf
+        /// </summary>
+        /// <param name="html"></param>
+        /// <returns></returns>
         public static IEnumerable<string> SearchPdfLinks(string html)
         {
             List<string> Pdflink = new List<string>();
@@ -91,17 +101,19 @@ namespace ConsoleParserPdf
         /// <param name="url">полная ссылка на скачиваемый файл;</param>
         /// <param name="filename">полный путь для сохранения файла и его наввание с расширением файла (пр. D:\\Report.png</param>
         /// <returns>fasle - если один из параметров будет равен null</returns>
-        public static bool DownloadPdf(string url, string filename)
+        public async static void DownloadPdf(string url, string filename)
         {
             if (!String.IsNullOrWhiteSpace(url) && !String.IsNullOrWhiteSpace(filename))
             {
                 using (WebClient client = new WebClient())
                 {
-                    client.DownloadFileAsync(new Uri(url), filename);
-                    return true;
+                    //client.DownloadFileAsync(new Uri(url), filename);
+                    //client.DownloadFile(url, filename);
+                    await client.DownloadFileTaskAsync(url, filename);
+                    //return true;
                 }
             }
-            return false;
+            //return false;
         }
 
         /// <summary>
@@ -167,6 +179,19 @@ namespace ConsoleParserPdf
             }
             return null;
         }
+
+
+        public static string CreateDir()
+        {
+            //string path = Directory.GetCurrentDirectory();
+            DirectoryInfo dirInfo = new DirectoryInfo(Directory.GetCurrentDirectory() + @"\SavePdf");
+            if (!dirInfo.Exists)
+            {
+                dirInfo.Create();
+            }
+            return dirInfo.ToString();
+        }
+
     }
 }
 

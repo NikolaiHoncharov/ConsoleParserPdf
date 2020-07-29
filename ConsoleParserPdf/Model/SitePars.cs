@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ConsoleParserPdf
+namespace ConsoleParserPdf.Model
 {
     class SitePars
     {
